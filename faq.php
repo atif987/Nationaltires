@@ -5,7 +5,7 @@
   ?>
 
     <!-- :: FAQ Section -->
-    <div class="faq py-80" style="background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+    <div class="faq py-80 setblackbackgroundcolor">
         <div class="container">
     
         <div class="section-head">

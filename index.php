@@ -19,11 +19,11 @@
     </div>
   </section>
 
-  <section>
-    <div class="container-fluid  p-0" style="color: white;text-align: center;">
+  <section class="setblackbackgroundcolor mt-1">
+    <div class="container-fluid  py-4" style="color: white;text-align: center;">
         <div class="row m-4 justify-content-center">
           <div class="col-sm-10 text-center p-4">
-            <h1 style="color:#10d7ff;font-weight:bolder;">Trusted By The UFC</h1>
+            <h1 style="color:white;font-weight:bolder;">Trusted By The UFC</h1>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -68,11 +68,11 @@
     </div>
   </section>
 
-  <section>
+  <section class="setblackbackgroundcolor mt-1">
     <div class="container-fluid p-0 m-0">
-      <div class="row m-4">
+      <div class="row">
         <div class="col text-center p-4">
-          <h1 style="color:#10d7ff;font-weight:bolder;">Services</h1>
+          <h1 style="color:white;font-weight:bolder;">Services</h1>
         </div>
       </div>
       <div class="row">
@@ -104,9 +104,9 @@
   
   <section>
     <div class="container-fluid p-0 m-0">
-        <div class="row m-4">
+        <div class="row">
           <div class="col text-center p-4">
-            <h1 style="color:#10d7ff;font-weight:bolder;"> APPROVED INSURANCE PARTNERS </h1>
+            <h1 style="color:black;font-weight:bolder;"> APPROVED INSURANCE PARTNERS </h1>
           </div>
         </div>
         <div class="row" style="justify-content: space-between;text-align:center;align-items:center;margin-bottom:50px;">
@@ -128,14 +128,14 @@
         </div>
         <div class="row">
           <div class="col mb-3">
-            <h3 style="color:#10d7ff;font-weight:bolder;" class="text-center"> And We Accept All Insurances</h3>
+            <h3 style="color:black;font-weight:bolder;" class="text-center"> And We Accept All Insurances</h3>
           </div>
         </div>
     </div>
   </section>
 
   <section>
-    <div class="container" style="border-radius : 5px;background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+    <div class="container setblackbackgroundcolor" style="border-radius : 5px;">
       <div class="row">
         <div class="col-md-6">
           <h2 class="text-white p-5">ENJOY THE SMOOTH RIDE</h2>
@@ -151,7 +151,7 @@
   </section>
 
   <section>
-    <div class="container-fluid p-5" style="margin-top:100px;border-radius : 5px;background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+    <div class="container-fluid p-5 setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
       <div class="row">
         <div class="col-md-4">
           <img src="assets/images/vectors/testing.jpg" height="780" style="width: 100%;border-radius: 10px;" id="repairingimage"/>
@@ -205,11 +205,11 @@
     </div>
   </section>
 
-  <section>
-    <div class="container p-5 my-2">
+  <section class="setblackbackgroundcolor mt-1">
+    <div class="container p-5">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h2 class="mb-4">What <b>Our Customers</b> Say About Us</h2>
+          <h2 class="mb-4 text-white">What <b>Our Customers</b> Say About Us</h2>
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Carousel indicators -->
             <ol class="carousel-indicators m-5">
@@ -378,8 +378,8 @@
     </div>
   </section>
 
-  <section style="background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
-    <div class="container p-5 mt-2">
+  <section class="setblackbackgroundcolor mt-1">
+    <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
           <h1>FOLLOW US ON INSTAGRAM</h1>
@@ -390,19 +390,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post1.png" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post2.png" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post3.png" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -410,19 +410,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post4.jpg" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post5.jpg" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post6.jpg" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -432,8 +432,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="faq-cont mt-1">
+  <section class="setblackbackgroundcolor mt-1">
+    <div class="faq-cont">
       <div class="container">
         <div class="row justify-content-center">
           <h4 class="text-white mb-3">MOST ASKED QUESTIONS</h4>

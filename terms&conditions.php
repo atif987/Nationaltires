@@ -4,9 +4,9 @@
   ?>
 
   <!-- :: Header -->
-  <header class="py-80 text-center" style="background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+  <header class="py-80 text-center setblackbackgroundcolor">
     <div class="container">
-      <h1 class="mb-0 text-capitalize">terms &amp; conditions</h1>
+      <h1 class="mb-0 text-capitalize text-white">terms &amp; conditions</h1>
     </div>
   </header>
 

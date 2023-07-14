@@ -6,13 +6,13 @@
 
  
   <!-- :: Header -->
-	<header class="p-0">
+	<header class="p-0 setblackbackgroundcolor mb-1">
 		<div class="container">
 			<!-- contain -->
-			<div class="row">
+			<div class="row align-items-center">
         <div class="col-7">
-          <h1 class="mb-4 text-uppercase">About us</h1>
-          <p class="mb-0">
+          <h1 class="mb-4 text-uppercase text-white">About us</h1>
+          <p class="mb-0 text-white">
           Welcome to National Tires & Auto Repairs! We are your trusted destination for top-quality automotive services. With a team of highly skilled technicians and state-of-the-art facilities, we provide comprehensive tire and auto repair solutions. From routine maintenance to complex repairs, our commitment to excellence ensures that your vehicle receives the utmost care and attention. Count on us for reliable and efficient service, keeping your vehicle in optimal condition for a smooth and safe driving experience.</p>
         </div>
         <div class="col-5">
@@ -23,7 +23,7 @@
 	</header>
 
 
-  <div class="container-fluid pt-5 pb-5 text-white" style="background-color: #04c7ff;">
+  <div class="container-fluid pt-5 pb-5 text-white setblackbackgroundcolor">
     <div class="row">
         <div class="col-lg-6 col-md-9 col-sm-12 mx-auto">
             <form method="POST" id="contactusform">
@@ -47,14 +47,14 @@
                 <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
             </div>
 
-            <button type="submit" id="contactsubmitbutton" class="btn btn-primary w-100">Submit</button>
+            <button type="submit" id="contactsubmitbutton" class="btn btn-light w-100">Submit</button>
             </form>
         </div>
     </div>
   </div>
 
   <!--:: Location-->
-  <div class="container-fluid mt-1" style="background-color: #04c7ff;padding-top: 10px;">
+  <div class="container-fluid mt-1" style="background-color: black;padding-top: 10px;">
   </div>
   <div class="loc-container">
     <div class="contact-details">
@@ -62,7 +62,7 @@
       <p>1050 n state road 7 Hollywood Florida 33021</p>
 
       <h5>Email Address</h5>
-      <p>info@nationaltyres.com</p>
+      <p>info@nationaltires.com</p>
 
       <h5>Phone Number</h5>
       <p>Phone: 954-987-2390<br>
@@ -71,7 +71,7 @@
       <p>Store hours are 8am-7:30pm<br>
       Open 7 days a week</p>
     </div>
-    <div class="google-map">
+    <div class="google-map" style="border-radius: 10px;overflow: hidden;">
       <!-- Your Google Map embed code or API integration goes here -->
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.4366722657946!2d-80.21045628497377!3d26.019264683520486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a96b1824da1b%3A0x4dca69c1b455ee80!2sNational%20Tires!5e0!3m2!1sen!2s!4v1689057576283!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>

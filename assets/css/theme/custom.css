@@ -55,7 +55,9 @@
       transform: rotateX(360deg);
     }   
 
-    
+    .border-radius-image{
+      border-radius: 20px;
+    }
 
     
 
@@ -127,10 +129,10 @@
     }
 
     .carousel .testimonial {
-      color: #808080;
+      color: white;
       position: relative;
       padding: 15px;
-      background: #f1f1f1;
+      background: black;
       border: 1px solid #efefef;
       border-radius: 3px;
       margin-bottom: 15px;
@@ -169,7 +171,7 @@
 
     .carousel .overview b {
       text-transform: uppercase;
-      color: #1abc9c;
+      color: white;
     }
 
     .carousel .carousel-indicators {
@@ -191,19 +193,19 @@
 
     .carousel-indicators li.active {
       color: #fff;
-      background: #1abc9c; 
+      background: black; 
     }
 
     .insta-box {
       position: relative;
       margin-bottom: 20px;
-      background-color: white;
+      background-color: black;
       text-align: center;
     }
 
     .insta-box:hover {
       cursor: pointer;
-      background-color: rgb(204, 204, 204);
+      background-color: black;
     }
 
     .insta-play {
@@ -211,22 +213,20 @@
       top: 11%;
       left: 15%;
       transform: translate(-50%, -50%);
-      color: #00d0ff;
+      color: yellow;
       font-size: 48px;
     }
     
     .neon {
       font-size: 90px;
-      color: #4ef6fc;
+      color: rgb(251, 255, 0);
       position: relative;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-weight: 400;
       letter-spacing: 8px;
-      text-shadow: 1px 0px 4px #4ee0e6, 2px 0px 4px #4ef3ff, 3px 0px 4px #14f3f3,
-        2px 0px 3px #1eeaf1, 2px 3px 15px #24ace2, 2px 0px 15px, 5px 0px 125px,
-        20px 0vw 200px #00aeff, 40px 0vw 200px #04dbeb;
+      text-shadow: 1px 2px rgb(251, 255, 0);
     }
     
     .flicker-slow {
@@ -243,7 +243,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: #00ffdd;
+      background-color: black;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -277,7 +277,7 @@
 
       .neon {
         font-size: 40px;
-        color: #4ef6fc;
+        color: rgb(251, 255, 0);
         position: relative;
         text-align: center;
         top: 50%;
@@ -285,9 +285,8 @@
         transform: translate(-50%, -50%);
         font-weight: 400;
         letter-spacing: 8px;
-        text-shadow: 1px 0px 4px #4ee0e6, 2px 0px 4px #4ef3ff, 3px 0px 4px #14f3f3,
-          2px 0px 3px #1eeaf1, 2px 3px 15px #24ace2, 2px 0px 15px, 5px 0px 125px,
-          20px 0vw 200px #00aeff, 40px 0vw 200px #04dbeb;
+        text-shadow: 1px 2px rgb(251, 255, 0);
+
       }
     }
 
@@ -312,9 +311,7 @@
         transform: translate(-50%, -50%);
         font-weight: 400;
         letter-spacing: 8px;
-        text-shadow: 1px 0px 4px #4ee0e6, 2px 0px 4px #4ef3ff, 3px 0px 4px #14f3f3,
-        2px 0px 3px #1eeaf1, 2px 3px 15px #24ace2, 2px 0px 15px, 5px 0px 125px,
-        20px 0vw 200px #00aeff, 40px 0vw 200px #04dbeb;
+        text-shadow: 1px 2px rgb(251, 255, 0);
       }
     }
 
@@ -326,7 +323,7 @@
       overflow:hidden;
       float:left;
       padding:3px;
-      border:#22daff solid 5px;
+      border:white solid 5px;
       border-radius:5px;
     }
 
@@ -363,6 +360,10 @@
 
     #nextmainslide{
       margin-left:-45px;
+    }
+
+    .setblackbackgroundcolor{
+      background-color: black;
     }
 
     @keyframes flicker {
@@ -429,7 +430,7 @@
 
     }
 
-    #loader-wrapper{position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: #0cb7ff; z-index: 15; overflow: hidden;}
+    #loader-wrapper{position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: black; z-index: 15; overflow: hidden;}
 
     .loader{width: 150px; height: 150px; border: 1px #fff solid; position: absolute; left: 50%; top: 50%; margin: -75px 0 0 -75px; border-radius: 50%;}
     
@@ -519,3 +520,4 @@
       .trendy-vedios:hover {
         cursor: pointer;
       }
+

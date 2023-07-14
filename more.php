@@ -19,7 +19,7 @@
   </section>
 
   <section>
-    <div class="container" style="margin-top:100px;border-radius : 5px;background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+    <div class="container setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
       <div class="row">
         <div class="col-md-6">
           <h2 class="text-white p-5">Wheeling</h2>
@@ -37,7 +37,7 @@
   </section>
 
   <section>
-    <div class="container-fluid p-5" style="margin-top:100px;border-radius : 5px;background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+    <div class="container-fluid p-5 setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
       <div class="row">
         <div class="col-md-4">
           <img src="assets/images/vectors/testing.jpg" height="780" style="width: 100%;border-radius: 10px;"/>
@@ -92,7 +92,7 @@
   </section>
 
   <section>
-    <div class="container mb-5" style="border-radius:10px;margin-top:5%;background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca);">
+    <div class="container mb-5 setblackbackgroundcolor" style="border-radius:10px;margin-top:5%;">
       <div class="row">
         <h1 class="neon" data-text="U"> <span class="flicker-slow">SET</span><span class="flicker-slow"> DIFFE</span>RE<span class="flicker-fast">NCE</span></h1>
       </div>
@@ -146,8 +146,8 @@
     </div>
   </section>
 
-  <section style="background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
-    <div class="container p-5 mt-2">
+  <section class="setblackbackgroundcolor mt-1">
+    <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
           <h1>FOLLOW US ON INSTAGRAM</h1>
@@ -158,19 +158,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post1.png" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post2.png" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post3.png" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -178,19 +178,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post4.jpg" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post5.jpg" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post6.jpg" class="img-fluid" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>

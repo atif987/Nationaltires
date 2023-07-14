@@ -1,6 +1,6 @@
  
  <!-- :: Footer -->
- <footer style="background-image: linear-gradient(122deg, #5421ff, #00d0ff 81%, #9dfeca)">
+ <footer class="setblackbackgroundcolor mt-1">
     <!-- newsletter -->
     <div class="n-l">
       <div class="container text-center">

@@ -338,7 +338,8 @@ nav.th-nav-st1 {
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: black;
+  border-bottom: 3px solid white;
   box-shadow: 0 0 28px rgba(93,93,102,.1);
   z-index: 999;
 }
@@ -352,7 +353,7 @@ nav.th-nav-st1 ul.nav-links li.th-nav-item:not(:last-child) {
 }
 nav.th-nav-st1 ul.nav-links li.th-nav-item > a {
   height: 70px;
-  color: var(--thBlack);
+  color: white;
   font-size: 15px;
   font-weight: 500;
 }
@@ -364,7 +365,7 @@ nav.th-nav-st1 ul.nav-links li.th-nav-item:not(.user-item) > a::before {
   height: 4px;
   border-radius: 50px;
   width: 0;
-  background: var(--thBlue);
+  background: white;
   -webkit-transition: width .25s ease;
   transition: width .25s ease;
 }
@@ -433,7 +434,7 @@ nav.th-nav-st1 ul.th-dropdown-list li.th-dropdown-item a::before {
 	padding: 0;
 	border-radius: 50%;
 	z-index: -1;
-	background: var(--thBlue);
+	background: black;
 	-webkit-transition: padding .05s;
 	transition: padding .05s;
 }
@@ -591,7 +592,7 @@ footer .c-r a:hover {
     font-size: 14px;
   }
   nav.th-nav-st1 ul.nav-links li.th-nav-item > a:hover {
-    color: var(--thYellow);
+    color: white;
   }
   nav.th-nav-st1 ul.nav-links li.th-nav-item:not(.user-item) > a::before {
     display: none;
@@ -685,14 +686,14 @@ footer .c-r a:hover {
 .faq-cont{
   border-radius: 5px;
   padding: 20px;
-  background-color: #04c7ff;
+  background-color: black;
   color:white;
 }
 
 .faq {
   border-radius: 5px;
   padding: 20px;
-  background-color: #04c7ff;
+  background-color: black;
   border:2px solid #ffffff;
   color:white;
   margin-bottom: 5px;
@@ -735,7 +736,7 @@ footer .c-r a:hover {
   text-align: start;
   color:white;
   justify-content: space-around;
-  background-color: #04c7ff;
+  background-color: black;
   padding: 20px;
 }
 

@@ -23,7 +23,7 @@
 
   <div id="loader">
   <div id="loader-wrapper">
-  <div class="loader">
+  <div class="loader ">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>

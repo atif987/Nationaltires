@@ -77,7 +77,7 @@
 
     .card:hover{ /* Just for styling */
       cursor: pointer;
-      box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+      box-shadow: 0 24px 38px 3px #ffffff24, 0 9px 46px 8px rgba(252, 236, 236, 0.12), 0 11px 15px -7px rgba(248, 237, 237, 0.2);
     }
 
     .card__title{ /* Just for styling */
@@ -520,4 +520,161 @@
       .trendy-vedios:hover {
         cursor: pointer;
       }
+
+      .about_sharpe_yt_vedio{
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        margin-top: 80px;
+      }
+      
+      @media (max-width: 400px) {
+      
+        .about_sharpe_yt_vedio{
+          width: 100%;
+          height: 350px;
+          border-radius: 20px;
+        }
+      
+      }
+
+      .intagram_vedio{
+        width: 250px;
+        height: 435px;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 400px) {
+      
+        .intagram_vedio{
+          width: 250px;
+          height: 435px;
+          border: 2px solid white;
+          border-radius: 10px;
+          margin-top: 20px;
+        }
+      
+      }
+
+      .rims_vedio{
+        width: 66%;
+        height: 505px;
+        border-radius: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      
+      @media (max-width: 400px) {
+      
+        .rims_vedio{
+          width: 66%;
+          height: 505px;
+          border-radius: 20px;
+          border: 2px solid white;
+          border-radius: 10px;
+          margin-top: 20px;
+        }
+      
+      }
+
+      .team_vedio{
+        width: 89%;
+        height: 435px;
+        border-radius: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 400px) {
+      
+        .team_vedio{
+          width: 87%;
+          height: 435px;
+          border-radius: 20px;
+          border: 2px solid white;
+          border-radius: 10px;
+          margin-top: 20px;
+        }
+      
+      }
+
+      .card_service{
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        width: 25%; /* Box dimensions */
+        height: 350px; 
+        border-radius: 8px; /* Styling */
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+        transition: box-shadow 0.56s ease-in-out; /* Animation */
+      }
+
+      .card_service:hover{ /* Just for styling */
+        cursor: pointer;
+        box-shadow: 0 24px 38px 3px #ffffff24, 0 9px 46px 8px rgba(252, 236, 236, 0.12), 0 11px 15px -7px rgba(248, 237, 237, 0.2);
+      }
+
+      @media only screen and (max-width: 1200px) {
+        .card_service{
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          width: 35%; /* Box dimensions */
+          height: 350px; 
+          border-radius: 8px; /* Styling */
+          box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+          transition: box-shadow 0.56s ease-in-out; /* Animation */
+        }
+  
+        .card_service:hover{ /* Just for styling */
+          cursor: pointer;
+          box-shadow: 0 24px 38px 3px #ffffff24, 0 9px 46px 8px rgba(252, 236, 236, 0.12), 0 11px 15px -7px rgba(248, 237, 237, 0.2);
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .card_service{
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          width: 50%; /* Box dimensions */
+          height: 350px; 
+          border-radius: 8px; /* Styling */
+          box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+          transition: box-shadow 0.56s ease-in-out; /* Animation */
+        }
+  
+        .card_service:hover{ /* Just for styling */
+          cursor: pointer;
+          box-shadow: 0 24px 38px 3px #ffffff24, 0 9px 46px 8px rgba(252, 236, 236, 0.12), 0 11px 15px -7px rgba(248, 237, 237, 0.2);
+        }
+      }
+
+      @media only screen and (max-width: 420px) {
+        .card_service{
+          position: relative;
+          overflow: hidden;
+          padding:0px;
+          margin:0px;
+          display: flex;
+          width: 90%; /* Box dimensions */
+          height: 350px; 
+          border-radius: 8px; /* Styling */
+          box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+          transition: box-shadow 0.56s ease-in-out; /* Animation */
+        }
+  
+        .card_service:hover{ /* Just for styling */
+          cursor: pointer;
+          box-shadow: 0 24px 38px 3px #ffffff24, 0 9px 46px 8px rgba(252, 236, 236, 0.12), 0 11px 15px -7px rgba(248, 237, 237, 0.2);
+        }
+      }
+  
+      
+
+      
 

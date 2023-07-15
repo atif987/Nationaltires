@@ -19,7 +19,47 @@
   </section>
 
   <section class="setblackbackgroundcolor">
-    <div class="container p-5 mt-2">
+    <div class="container-fluid p-0 m-0">
+      <div class="row">
+        <div class="col text-center p-4">
+          <h1 style="color:white;font-weight:bolder;">Services</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col p-0">
+          <div class="wrapper">
+            <div class="card_service has-bg-img" style="background-image: url('assets/images/vectors/maintaince.jpg');opacity:0.8;" id="maintainceimage">
+                <span class="card__title m-0 p-5">Mechanical Work</span>
+            </div>
+            <div class="card_service has-bg-img" style="background-image: url('assets/images/vectors/star_roof_lights.png');opacity:0.8;">
+              <span class="card__title m-0 p-5">Detailing</span>
+            </div>
+            <div class="card_service has-bg-img" style="background-image: url('assets/images/vectors/repairing.jpg');opacity:0.8;">
+              <span class="card__title m-0 p-5">Collision Service</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col p-0">
+          <div class="wrapper">
+            <div class="card_service has-bg-img" style="background-image: url('assets/images/vectors/maintaince.jpg');opacity:0.8;" id="maintainceimage">
+                <span class="card__title m-0 p-5">Mechanical Work</span>
+            </div>
+            <div class="card_service has-bg-img" style="background-image: url('assets/images/vectors/star_roof_lights.png');opacity:0.8;">
+              <span class="card__title m-0 p-5">Detailing</span>
+            </div>
+            <div class="card_service has-bg-img" style="background-image: url('assets/images/vectors/repairing.jpg');opacity:0.8;">
+              <span class="card__title m-0 p-5">Collision Service</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="setblackbackgroundcolor">
+    <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
           <h1>GO BEYOND THE LIMITS</h1>
@@ -69,7 +109,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">

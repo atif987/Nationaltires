@@ -108,7 +108,7 @@
   </section>
 
   <section>
-    <div class="faq-cont mt-1">
+    <div class="faq-cont">
       <div class="container">
         <div class="row justify-content-center">
           <h4 class="text-white mb-3">MOST ASKED QUESTIONS</h4>
@@ -146,7 +146,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">

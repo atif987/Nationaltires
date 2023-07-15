@@ -40,7 +40,7 @@
   </section>
 
   <section>
-    <div class="container-fluid p-5" style="margin-top:100px;border-radius : 5px;" class="setblackbackgroundcolor">
+    <div class="container-fluid p-5 setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
       <div class="row">
         <div class="col-md-4">
           <img src="assets/images/vectors/testing.jpg" height="780" style="width: 100%;border-radius: 10px;"/>
@@ -95,6 +95,19 @@
   </section>
 
   <section>
+      <div class="row pt-2 pb-5 justify-content-between align-items-center" style="background-color: black; border-radius: 5px; color: white;">
+        <div class="col text-center">
+            <h2>Auto Wraps</h2>
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <video src="assets/vedios/wraps.mp4" controls class="intagram_vedio"></video>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <section>
     <div class="container mb-5 setblackbackgroundcolor" style="border-radius:10px;margin-top:5%;" >
       <div class="row">
         <h1 class="neon" data-text="U"> <span class="flicker-slow">SET</span><span class="flicker-slow"> DIFFE</span>RE<span class="flicker-fast">NCE</span></h1>
@@ -110,7 +123,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
@@ -165,7 +178,7 @@
   </section>
 
   <section>
-    <div class="faq-cont mt-1">
+    <div class="faq-cont">
       <div class="container">
         <div class="row justify-content-center">
           <h4 class="text-white mb-3">MOST ASKED QUESTIONS</h4>
@@ -202,8 +215,6 @@
       </div>
     </div>
   </section>
-
-  
 
   <?php 
     include 'footer.php'; 

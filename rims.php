@@ -21,10 +21,10 @@
   <!-- :: Intro-->
   <section>
     <div class="container setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
-      <div class="row">
+      <div class="row pb-3">
         <div class="col-md-6">
           <h2 class="text-white p-5">Upgrade Your Wheels in Style with our Exquisite Selection of Rims!</h2>
-          <p class="text-white px-5 py-2">Whether you prefer sleek and sophisticated designs or crave a more aggressive and sporty look, we have the perfect rims to suit your taste. Our knowledgeable team will help you choose the ideal rims that not only complement your vehicle's aesthetics </p>
+          <p class="text-white px-5 py-2">Whether you prefer sleek and sophisticated designs or crave a more aggressive and sporty look, we have the perfect rims to suit your taste.</p>
           <span class="px-5">
             <button type="button" class="btn" style="font-weight: 600;">
               SCHEDULE A CONSULTATION
@@ -32,7 +32,7 @@
           </span>
         </div>
         <div class="col-md-6 p-5">
-          <img src="assets/images/backgrounds/05.png" style="height: 400px;border-radius: 5%;" class="img-fluid" alt="Responsive Image">
+          <img src="assets/images/vectors/lifting.webp" style="height: 400px;border-radius: 5%;" class="img-fluid" alt="Responsive Image">
         </div>
       </div>
   </section>
@@ -93,6 +93,19 @@
   </section>
 
   <section>
+      <div class="row pt-2 pb-5 justify-content-between align-items-center" style="background-color: black; border-radius: 5px; color: white;">
+        <div class="col text-center">
+            <h2>Rims</h2>
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <video src="assets/vedios/rims.mp4" controls class="rims_vedio"></video>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <section>
     <div class="container mb-5 setblackbackgroundcolor" style="border-radius:10px;margin-top:5%;">
       <div class="row">
         <h1 class="neon" data-text="U"> <span class="flicker-slow">SET</span><span class="flicker-slow"> DIFFE</span>RE<span class="flicker-fast">NCE</span></h1>
@@ -109,7 +122,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">

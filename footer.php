@@ -1,6 +1,6 @@
  
  <!-- :: Footer -->
- <footer class="setblackbackgroundcolor mt-1">
+ <footer class="setblackbackgroundcolor">
     <!-- newsletter -->
     <div class="n-l">
       <div class="container text-center">

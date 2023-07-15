@@ -19,7 +19,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container-fluid  py-4" style="color: white;text-align: center;">
         <div class="row m-4 justify-content-center">
           <div class="col-sm-10 text-center p-4">
@@ -68,7 +68,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container-fluid p-0 m-0">
       <div class="row">
         <div class="col text-center p-4">
@@ -205,7 +205,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-sm-12 text-center">
@@ -378,7 +378,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
@@ -432,7 +432,7 @@
     </div>
   </section>
 
-  <section class="setblackbackgroundcolor mt-1">
+  <section class="setblackbackgroundcolor">
     <div class="faq-cont">
       <div class="container">
         <div class="row justify-content-center">

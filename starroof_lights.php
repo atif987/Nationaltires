@@ -20,7 +20,7 @@
 
   <!-- :: Intro-->
   <section>
-    <div class="container setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
+    <div class="container setblackbackgroundcolor mb-4" style="margin-top:100px;border-radius : 5px;">
       <div class="row">
         <div class="col-md-6">
           <h2 class="text-white p-5">Illuminate the Night Sky with our Brilliant Star Roof Lights!</h2>
@@ -90,6 +90,19 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section>
+      <div class="row pt-2 pb-5 justify-content-between align-items-center" style="background-color: black; border-radius: 5px; color: white;">
+        <div class="col text-center">
+            <h2>Star Roof Lights</h2>
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <video src="assets/vedios/lights.mp4" controls class="intagram_vedio"></video>
+              </div>
+            </div>
+        </div>
+      </div>
   </section>
 
   <section>

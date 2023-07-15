@@ -6,7 +6,7 @@
 
  
   <!-- :: Header -->
-	<header class="p-0 setblackbackgroundcolor mb-1">
+	<header class="p-0 setblackbackgroundcolor">
 		<div class="container">
 			<!-- contain -->
 			<div class="row align-items-center">
@@ -54,7 +54,7 @@
   </div>
 
   <!--:: Location-->
-  <div class="container-fluid mt-1" style="background-color: black;padding-top: 10px;">
+  <div class="container-fluid" style="background-color: black;padding-top: 10px;">
   </div>
   <div class="loc-container">
     <div class="contact-details">
@@ -77,7 +77,7 @@
     </div>
   </div>
 
-  <div class="faq-cont mt-1">
+  <div class="faq-cont">
     <div class="container">
       <div class="row justify-content-center">
         <h4 class="text-white mb-3">MOST ASKED QUESTIONS</h4>

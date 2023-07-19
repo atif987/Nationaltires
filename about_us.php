@@ -120,7 +120,6 @@
             }
 
             $("#contactsubmitbutton").on("click", function(e) {
-                console.log("Button Clicked");
                 e.preventDefault();
                 var formdata = jsonData("#contactusform");
                 // validate form fields

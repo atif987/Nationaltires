@@ -590,9 +590,10 @@ footer .c-r a:hover {
     padding: 10px 20px;
     width: 220px;
     font-size: 14px;
+    color:black;
   }
   nav.th-nav-st1 ul.nav-links li.th-nav-item > a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
   }
   nav.th-nav-st1 ul.nav-links li.th-nav-item:not(.user-item) > a::before {
     display: none;
@@ -600,13 +601,13 @@ footer .c-r a:hover {
   nav.th-nav-st1 ul.nav-links li.th-nav-item.user-item > a {
     border: none;
     background: #fff;
-    color: var(--thBlack);
+    color: black;
     padding: 10px 20px;
     border-radius: 0;
   }
   nav.th-nav-st1 ul.nav-links li.th-nav-item.user-item > a:hover {
     background: transparent;
-    color: var(--thYellow);
+    color: black;
   }
   nav.th-nav-st1 li.th-nav-item.has-dropdown ul.th-dropdown-list {
     position: relative;

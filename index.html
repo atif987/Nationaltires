@@ -6,9 +6,6 @@
   <style>
     /* Custom Styles */
     
-    h2 {
-      color: #333;
-    }
     
     #datepicker {
       margin-top: 20px;
@@ -50,197 +47,233 @@
       background-color: rgb(0, 150, 196);
     }
 
-    #selectButton:hover {
-      background-color: rgb(0, 163, 163);
-      cursor: pointer;
-    }
         
   </style>
 </head>
 <body>
-  <div class="container"  style="background-color: #00d0ff;text-align: center;padding: 20px;border: 5px solid white;border-radius: 10px;">
-    <div class="row">
-        <div class="col">
-            <h4 style="color: white;margin-bottom: 20px;">Do you wish to leave your vehicle or wait during the repair?</h4>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6"> 
-            <button id="selectButton" class="btn btn-info" style="color:white;padding-left: 50px;padding-right: 50px;padding:10px;border-radius: 5px;">I Will Wait For My Vehicle</button>
-        </div>
-        <div class="col-lg-6"> 
-            <button id="selectButton" class="btn btn-info" style="color:white;padding-left: 50px;padding-right: 50px;padding:10px;border-radius: 5px;">I Will Drop Off My Vehicle</button>
-        </div>
-    </div>
-  </div>
-  <div class="container" style="background-color: #00d0ff;text-align: center;padding: 20px;border: 5px solid white;border-radius: 10px;">
-    <h4 style="color: white;margin-bottom: 20px;">Select appointment date and time</h4>
-    <div>
-      <button id="previous-month" class="btn btn-info">Previous Month</button>
-      <button id="next-month" class="btn btn-info">Next Month</button>
-    </div>
-
-    <div class="row" style="text-align: center;justify-content: center;">
-        <div id="datepicker"></div>
-    </div>
-
-    <h4 id="selected-date" style="color: white;">Selected Date: <span id="selected-date-text"></span></h4>
-
-    <div id="time-slots">
-      <button>07:00 AM</button>
-      <button>08:00 AM</button>
-      <button>09:00 AM</button>
-      <button>10:00 AM</button>
-      <button>11:00 AM</button>
-      <button>12:00 PM</button>
-      <button>01:00 PM</button>
-      <button>02:00 PM</button>
-      <button>03:00 PM</button>
-      <button>04:00 PM</button>
-      <button>05:00 PM</button>
-      <button>06:00 PM</button>
-      <button>07:00 PM</button>
-      <button>08:00 PM</button>
-    </div>
-  </div>
-  <div class="container" style="background-color: #00d0ff;text-align: center;padding: 20px;border: 5px solid white;border-radius: 10px;">
-    <h4 style="color: white;margin-bottom: 20px;">Select Your Vehicle</h4>
-    <div class="row justify-content-center">
-        <div class="col-md-3 m-2">
-            <label style="color:white;font-weight: bolder;">YEAR</label><br>
-            <select class="select" style="width: 250px;padding:5px;border-radius: 5px;">
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="4">Four</option>
-                <option value="5">Five</option>
-                <option value="6">Six</option>
-                <option value="7">Seven</option>
-                <option value="8">Eight</option>
-            </select>   
-        </div>
-        <div class="col-md-3 m-2">
-            <label style="color:white;font-weight: bolder;">YEAR</label><br>
-            <select class="select" style="width: 250px;padding:5px;border-radius: 5px;">
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="4">Four</option>
-                <option value="5">Five</option>
-                <option value="6">Six</option>
-                <option value="7">Seven</option>
-                <option value="8">Eight</option>
-            </select>   
-        </div>
-        <div class="col-md-3 m-2">
-            <label style="color:white;font-weight: bolder;">YEAR</label><br>
-            <select class="select" style="width: 250px;padding:5px;border-radius: 5px;">
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="4">Four</option>
-                <option value="5">Five</option>
-                <option value="6">Six</option>
-                <option value="7">Seven</option>
-                <option value="8">Eight</option>
-            </select>   
-        </div>
-    </div>
-  </div>
-  <!-- <div class="container" style="background-color: #00d0ff;text-align: center;padding: 20px;border: 5px solid white;border-radius: 10px;">
-    <h4 style="color: white;margin-bottom: 20px;">Select Services</h4>
-    <div class="row justify-content-center">
-        <div class="col-md-12 m-2">
-            <select class="select" multiple data-mdb-placeholder="Example placeholder" multiple>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="4">Four</option>
-                <option value="5">Five</option>
-              </select>
-        </div>
-    </div>
-  </div> -->
-  <div class="container" style="background-color: #00d0ff;text-align: center;padding: 20px;border: 5px solid white;border-radius: 10px;">
-    <h2>Provide Your Contact Information</h2>
-    <form>
+    <div class="container"  style="background-color: black;color:white;padding:50px;border-radius: 10px;">
         <div class="row">
-            <div class="col-6">
-                <div class="form-group">
-                    <label for="firstName">First name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
-                </div>
+            <div class="col">
+                <h4 style="color: white;margin-bottom: 20px;">Do you wish to leave your vehicle or wait during the repair?</h4>
             </div>
-            <div class="col-6">
-                <div class="form-group">
-                    <label for="lastName">Last name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
-                </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-lg-6"> 
+                <button  class="btn btn-warning m-2 p-2" >I Will Wait For My Vehicle</button>
             </div>
+            <div class="col-lg-6"> 
+                <button  class="btn btn-warning m-2 p-2" >I Will Drop Off My Vehicle</button>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <di class="col">
+                <h4 style="color: white;margin-bottom: 20px;">Select appointment date and time</h4>
+            </di>
+        </div>
+        <div class="row" style="text-align: center;">
+            <di class="col">
+                <button id="previous-month" class="btn btn-warning">Previous Month</button>
+                <button id="next-month" class="btn btn-warning">Next Month</button>
+            </di>
         </div>
         <div class="row">
-            <div class="col-6">
-                <div class="form-group">
-                    <label for="firstName">First name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+            <div class="col">
+                <div class="row" style="text-align: center;justify-content: center;">
+                    <div id="datepicker"></div>
                 </div>
-            </div>
-            <div class="col-6">
-                <div class="form-group">
-                    <label for="lastName">Last name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+            
+                <h4 id="selected-date" class="text-center text-white" >Selected Date: <span id="selected-date-text"></span></h4>
+                <label for="cars">Select Time:</label><br>
+                <select id="exacttime" name="exacttime" style="padding: 10px;width:30%;border-radius: 5px;" required>
+                    <option value="07:00 AM">07:00 AM</option>
+                    <option value="08:00 AM">08:00 AM</option>
+                    <option value="09:00 AM">09:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 AM">12:00 PM</option>
+                    <option value="01:00 PM">01:00 PM</option>
+                    <option value="02:00 PM">02:00 PM</option>
+                    <option value="03:00 PM">03:00 PM</option>
+                    <option value="04:00 PM">04:00 PM</option>
+                    <option value="05:00 PM">05:00 PM</option>
+                    <option value="06:00 PM">06:00 PM</option>
+                    <option value="07:00 PM">07:00 PM</option>
+                    <option value="08:00 PM">08:00 PM</option>
+                </select>
+                <div id="time-slots">      
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="form-group">
-                    <label for="comments">Additional comments <small class="optional-label">( Optional )</small></label>
-                    <textarea class="form-control" id="comments" rows="3" placeholder="Enter any additional comments"></textarea>
-                </div>
-            </div>
-        </div>
-       
+    </div>
+
+    <div class="container mt-4 mb-4"  style="background-color: black;color:white;padding:50px;border-radius: 10px;">
     
-        <h2>Appointment Summary</h2>
         <div class="row">
-            <div class="col-sm-4">
-                <div class="form-group">
-                   <span>Location</span><br>
-                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                </div>
+            <div class="col-12">
+                <h4 style="color: white;margin-bottom: 20px;">Select Your Vehicle</h4>
             </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                   <span>Location</span><br>
-                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 m-1">
+                    <label style="color:white;font-weight: bolder;">YEAR</label><br>
+                    <select class="select" style="width: 250px;padding:5px;border-radius: 5px;">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                        <option value="6">Six</option>
+                        <option value="7">Seven</option>
+                        <option value="8">Eight</option>
+                    </select>   
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4 m-1">
+                    <label style="color:white;font-weight: bolder;">YEAR</label><br>
+                    <select class="select" style="width: 250px;padding:5px;border-radius: 5px;">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                        <option value="6">Six</option>
+                        <option value="7">Seven</option>
+                        <option value="8">Eight</option>
+                    </select>   
+            </div>
+            <div class="col-md-3 m-1">
+                    <label style="color:white;font-weight: bolder;">YEAR</label><br>
+                    <select class="select" style="width: 250px;padding:5px;border-radius: 5px;">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                        <option value="6">Six</option>
+                        <option value="7">Seven</option>
+                        <option value="8">Eight</option>
+                    </select>   
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 mb-3">
+                <h4 class="mt-4">Select Services</h4>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <label for="cars">Select Service:</label><br>
+                <select id="exacttime" name="exacttime" style="padding: 10px;width:50%;border-radius: 5px;" required>
+                    <option value="07:00 AM">07:00 AM</option>
+                    <option value="08:00 AM">08:00 AM</option>
+                    <option value="09:00 AM">09:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 AM">12:00 PM</option>
+                    <option value="01:00 PM">01:00 PM</option>
+                    <option value="02:00 PM">02:00 PM</option>
+                    <option value="03:00 PM">03:00 PM</option>
+                    <option value="04:00 PM">04:00 PM</option>
+                    <option value="05:00 PM">05:00 PM</option>
+                    <option value="06:00 PM">06:00 PM</option>
+                    <option value="07:00 PM">07:00 PM</option>
+                    <option value="08:00 PM">08:00 PM</option>
+                </select>
+            </div>
+            <div class="col-sm-12 col-md-6">
                 <div class="form-group">
-                   <span>Location</span><br>
-                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
+                    <label for="comments">Further Details <small class="furtherDetails">( Optional )</small></label>
+                    <textarea class="form-control" id="details" rows="3" placeholder="Enter any Further Details"></textarea>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="form-group">
-                   <span>Location</span><br>
-                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                </div>
+
+    </div>
+
+    <div class="container" style="background-color: black;color:white;padding:50px;border-radius: 10px;">
+            <div class="row py-2">
+                <h2>Provide Your Contact Information</h2>
             </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                   <span>Location</span><br>
-                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
+            <form>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                            <label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-       
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <label for="comments">Additional comments <small class="optional-label">( Optional )</small></label>
+                                <textarea class="form-control" id="comments" rows="3" placeholder="Enter any additional comments"></textarea>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" style="font-weight: bolder;text-align: start;">
+                        <h2>Appointment Summary</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="form-group">
+                            <span>Location</span><br>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Delectus sit quas placeat!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="form-group">
+                            <span>Location</span><br>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="form-group">
+                            <span>Location</span><br>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="form-group">
+                            <span>Location</span><br>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="form-group">
+                            <span>Location</span><br>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 py-2 text-center">
+                        <button type="submit" class="btn btn-warning w-50">Submit</button>
+                    </div>
+                </div>
+            </form>
+    </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -284,123 +317,10 @@
         $("#datepicker").datepicker("setDate", nextMonth);
       });
 
-      $('#selectButton').click(function() {
-        $(this).toggleClass('selected');
-      });
 
     });
   </script>
 </body>
 </html>
 
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Information Form</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .optional-label {
-            font-style: italic;
-            font-size: 14px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h2>Provide Your Contact Information</h2>
-        <form>
-            <div class="row">
-                <div class="col-6">
-                    <div class="form-group">
-                        <label for="firstName">First name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="form-group">
-                        <label for="lastName">Last name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="form-group">
-                        <label for="firstName">First name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="form-group">
-                        <label for="lastName">Last name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="form-group">
-                        <label for="comments">Additional comments <small class="optional-label">( Optional )</small></label>
-                        <textarea class="form-control" id="comments" rows="3" placeholder="Enter any additional comments"></textarea>
-                    </div>
-                </div>
-            </div>
-           
-        
-            <h2>Appointment Summary</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="form-group">
-                       <span>Location</span><br>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="form-group">
-                       <span>Location</span><br>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="form-group">
-                       <span>Location</span><br>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="form-group">
-                       <span>Location</span><br>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="form-group">
-                       <span>Location</span><br>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit quas placeat!</p>
-                    </div>
-                </div>
-            </div>
-           
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html> -->
-
-
-
-
-
-
-
-
-
-
-
- 

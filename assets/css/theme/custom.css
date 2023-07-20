@@ -317,8 +317,8 @@
 
     
     #slider{
-      width:92%;
-      height:350px;
+      width:100%;
+      height:650px;
       position:relative;
       overflow:hidden;
       float:left;
@@ -326,10 +326,10 @@
       border:white solid 5px;
       border-radius:5px;
     }
-
+  
     #slider img{
-      width:120%;
-      height:350px;
+      width:100%;
+      height:650px;
     }
 
     .main-slide{
@@ -338,6 +338,7 @@
     }
 
     .slide-copy{
+      width: 100%;
       position:absolute;
       bottom:0;
       left:0;
@@ -354,13 +355,13 @@
       z-index:100;
     }
 
-    #prevmainslide{
+    /* #prevmainslide{
       margin-right:-45px;
     }
 
     #nextmainslide{
       margin-left:-45px;
-    }
+    } */
 
     .setblackbackgroundcolor{
       background-color: black;

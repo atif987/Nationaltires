@@ -677,6 +677,29 @@
         </div>
     </div>
 
+  <div class="container-fluid mt-4" style="background-color: black;padding-top: 10px;">
+  </div>
+  <div class="loc-container">
+    <div class="contact-details">
+      <h5>Location</h5>
+      <p>1050 n state road 7 Hollywood Florida 33021</p>
+
+      <h5>Email Address</h5>
+      <p>info@nationaltires.com</p>
+
+      <h5>Phone Number</h5>
+      <p>Phone: 954-987-2390<br>
+
+      <h5>Hours of Operation</h5>
+      <p>Store hours are 8am-7:30pm<br>
+      Open 7 days a week</p>
+    </div>
+    <div class="google-map" style="border-radius: 10px;overflow: hidden;">
+      <!-- Your Google Map embed code or API integration goes here -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.4366722657946!2d-80.21045628497377!3d26.019264683520486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a96b1824da1b%3A0x4dca69c1b455ee80!2sNational%20Tires!5e0!3m2!1sen!2s!4v1689057576283!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
      <!-- :: Footer -->
  <footer class="setblackbackgroundcolor">
     <!-- newsletter -->

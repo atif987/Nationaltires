@@ -113,6 +113,32 @@
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
+          <h1>DIAGNOSIS</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <div class="trendy-vedios">
+              <video src="assets/vedios/Diagnosis_1.mp4"  alt="Instagram Link" style="width: 339px;border:2px solid white;height: 600px;border-radius:10px;" controls></video>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="trendy-vedios">
+              <video src="assets/vedios/Diagnosis_2.mp4"  alt="Instagram Link" style="width: 339px;border:2px solid white;height: 600px;border-radius:10px;" controls></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="setblackbackgroundcolor">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-md-12 text-center text-white">
           <h1>FOLLOW US ON INSTAGRAM</h1>
         </div>
       </div>

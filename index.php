@@ -1,6 +1,6 @@
 
   <?php 
-    $pageTitle = "Homessssss";
+    $pageTitle = "Home";
     include 'header.php'; 
   ?>
 
@@ -23,47 +23,55 @@
     <div class="container-fluid  py-4" style="color: white;text-align: center;">
         <div class="row m-4 justify-content-center">
           <div class="col-sm-10 text-center p-4">
-            <h1 style="color:white;font-weight:bolder;">Trusted By The UFC</h1>
+            <h1 style="color:white;font-weight:bolder;">Trusted Partners</h1>
           </div>
         </div>
         <div class="row justify-content-center">
-        <div class="col-sm-10">
-        <img src="https://i.imgur.com/UlgaWaO.png" alt="Prev" id="prevmainslide">
-        <div id="slider">
-          <div class="main-slide">
-            <div class="slide-copy">
-              <h2>Slider One</h2>
-              <p>Donec ac lobortis nunc, rutrum pellentesque ante. Cras gravida risus in risus rutrum placerat. Nulla condimentum porta sem vel facilisis. In vel tristique dolor. Mauris congue lacus nec ex consectetur, et sodales urna blandit.</p>
+        <div class="col-sm-12 col-md-6 col-lg-9">
+        <!-- <img src="https://i.imgur.com/UlgaWaO.png" alt="Prev" id="prevmainslide"> -->
+          <div id="slider">
+            <!-- <div class="main-slide">
+              <div class="slide-copy">
+                <h2>Slider One</h2>
+                <p>Donec ac lobortis nunc, rutrum pellentesque ante. Cras gravida risus in risus rutrum placerat. Nulla condimentum porta sem vel facilisis. In vel tristique dolor. Mauris congue lacus nec ex consectetur, et sodales urna blandit.</p>
+              </div>
+              <img src="assets/images/vectors/slider_1.jpg">
+            </div> -->
+            
+            <div class="main-slide">
+              <div class="slide-copy">
+                <h2>Expert Car Maintenance Services</h2>
+                <p>Professional care for your vehicle's longevity and performance. Trust our skilled technicians for top-notch maintenance solutions.</p>
+              </div>
+              <img src="assets/images/vectors/slider_3.jpg">
             </div>
-            <img src="https://i.imgur.com/LMEs37G.jpg">
-          </div>
-          
-          <div class="main-slide">
-            <div class="slide-copy">
-              <h2>Slider Two</h2>
-              <p>Donec ac lobortis nunc, rutrum pellentesque ante. Cras gravida risus in risus rutrum placerat. Nulla condimentum porta sem vel facilisis. In vel tristique dolor. Mauris congue lacus nec ex consectetur, et sodales urna blandit.</p>
+            
+            <div class="main-slide">
+              <div class="slide-copy">
+                <h2>Efficient Car Repair Services</h2>
+                <p>Quick and reliable repairs to get your car back on the road safely. Our experts ensure your vehicle stays in excellent condition.</p>
+              </div>
+              <img src="assets/images/vectors/slider_4.jpg">
             </div>
-            <img src="https://i.imgur.com/H6lGCCg.jpg">
-          </div>
-          
-          <div class="main-slide">
-            <div class="slide-copy">
-              <h2>Slider Three</h2>
-              <p>Donec ac lobortis nunc, rutrum pellentesque ante. Cras gravida risus in risus rutrum placerat. Nulla condimentum porta sem vel facilisis. In vel tristique dolor. Mauris congue lacus nec ex consectetur, et sodales urna blandit.</p>
+
+            <div class="main-slide">
+              <div class="slide-copy">
+                <h2>Accurate Diagnostic Solutions</h2>
+                <p>Cutting-edge diagnostic tools and techniques for pinpointing issues. Let us identify and fix problems to keep your car running smoothly.</p>
+              </div>
+              <img src="assets/images/vectors/slider_5.jpg">
             </div>
-            <img src="https://i.imgur.com/rcbn9T1.jpg">
-          </div>
-          
-          <div class="main-slide">
-            <div class="slide-copy">
-              <h2>Slider Four</h2>
-              <p>Donec ac lobortis nunc, rutrum pellentesque ante. Cras gravida risus in risus rutrum placerat. Nulla condimentum porta sem vel facilisis. In vel tristique dolor. Mauris congue lacus nec ex consectetur, et sodales urna blandit.</p>
+
+            <div class="main-slide">
+              <div class="slide-copy">
+                <h2>Quality Parts and Accessories</h2>
+                <p>Genuine parts and premium accessories for your car's optimal performance. Enhance your driving experience with our high-quality products.</p>
+              </div>
+              <img src="assets/images/vectors/slider_2.jpg">
             </div>
-            <img src="https://i.imgur.com/EQkdq2K.jpg">
+
           </div>
-    
-        </div>
-        <img src="https://i.imgur.com/zDJG3DY.png" alt="Next" id="nextmainslide">
+        <!-- <img src="https://i.imgur.com/zDJG3DY.png" alt="Next" id="nextmainslide"> -->
       </div>
     </div>
   </section>

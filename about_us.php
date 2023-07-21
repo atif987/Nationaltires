@@ -7,16 +7,16 @@
  
   <!-- :: Header -->
 	<header class="p-0 setblackbackgroundcolor">
-		<div class="container">
+		<div class="container" id="about-us-section">
 			<!-- contain -->
 			<div class="row align-items-center">
-        <div class="col-7">
+        <div class="col-lg-7 col-md-12">
           <h1 class="mb-4 text-uppercase text-white">About us</h1>
           <p class="mb-0 text-white">
           Welcome to National Tires & Auto Repairs! We are your trusted destination for top-quality automotive services. With a team of highly skilled technicians and state-of-the-art facilities, we provide comprehensive tire and auto repair solutions. From routine maintenance to complex repairs, our commitment to excellence ensures that your vehicle receives the utmost care and attention. Count on us for reliable and efficient service, keeping your vehicle in optimal condition for a smooth and safe driving experience.</p>
         </div>
-        <div class="col-5">
-          <img src="./assets/images/char/man.png" class="img-fluid" alt="man">
+        <div class="col-lg-5 col-md-12">
+          <img src="./assets/images/char/man.png" class="img-fluid pt-5" alt="man">
         </div>
 			</div>
 		</div>
@@ -24,6 +24,9 @@
 
 
   <div class="container-fluid pt-5 pb-5 text-white setblackbackgroundcolor">
+    <div class="row text-center justify-content-center">
+        <h2>Contact US</h2>
+    </div>
     <div class="row">
         <div class="col-lg-6 col-md-9 col-sm-12 mx-auto">
             <form method="POST" id="contactusform">
@@ -54,7 +57,7 @@
   </div>
 
   <!--:: Location-->
-  <div class="container-fluid" style="background-color: black;padding-top: 10px;">
+  <div class="container-fluid" style="background-color: black;">
   </div>
   <div class="loc-container">
     <div class="contact-details">
@@ -80,7 +83,7 @@
   <div class="faq-cont">
     <div class="container">
       <div class="row justify-content-center">
-        <h4 class="text-white mb-3">MOST ASKED QUESTIONS</h4>
+        <h4 class="text-white mb-3 mt-3">MOST ASKED QUESTIONS</h4>
       </div>
       <div class="row">
         <div class="faq-container">

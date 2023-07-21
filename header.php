@@ -50,7 +50,7 @@
       <div class="nav-content d-flex align-items-center justify-content-between">
         <!-- brand -->
         <a href="#" class="brand">
-          <img src="./assets/images/logos/logo.png" style="height: 80px;width: 150px;" class="img-fluid" alt="">
+          <img src="./assets/images/logos/logo.png" id="main-site-logo" class="img-fluid" alt="">
         </a>
         <!-- links -->
         <ul class="nav-links list-unstyled d-lg-flex align-items-center justify-content-end mb-0">
@@ -71,9 +71,9 @@
           </li>
 
           <!-- nav item -->
-          <li class="th-nav-item position-relative">
+          <!-- <li class="th-nav-item position-relative">
             <a href="rims.php" class="position-relative d-flex align-items-center justify-content-lg-center justify-content-between text-capitalize">rims</a>
-          </li>
+          </li> -->
 
           <!-- nav item -->
           <li class="th-nav-item position-relative">

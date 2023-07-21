@@ -29,19 +29,11 @@
         <div class="row justify-content-center">
         <div class="col-sm-12 col-md-6 col-lg-9">
         <!-- <img src="https://i.imgur.com/UlgaWaO.png" alt="Prev" id="prevmainslide"> -->
-          <div id="slider">
-            <!-- <div class="main-slide">
-              <div class="slide-copy">
-                <h2>Slider One</h2>
-                <p>Donec ac lobortis nunc, rutrum pellentesque ante. Cras gravida risus in risus rutrum placerat. Nulla condimentum porta sem vel facilisis. In vel tristique dolor. Mauris congue lacus nec ex consectetur, et sodales urna blandit.</p>
-              </div>
-              <img src="assets/images/vectors/slider_1.jpg">
-            </div> -->
-            
+          <div id="slider">  
             <div class="main-slide">
               <div class="slide-copy">
                 <h2>Expert Car Maintenance Services</h2>
-                <p>Professional care for your vehicle's longevity and performance. Trust our skilled technicians for top-notch maintenance solutions.</p>
+                <p class = "slider-service-detail" >Professional care for your vehicle's longevity and performance. Trust our skilled technicians for top-notch maintenance solutions.</p>
               </div>
               <img src="assets/images/vectors/slider_3.jpg">
             </div>
@@ -49,7 +41,7 @@
             <div class="main-slide">
               <div class="slide-copy">
                 <h2>Efficient Car Repair Services</h2>
-                <p>Quick and reliable repairs to get your car back on the road safely. Our experts ensure your vehicle stays in excellent condition.</p>
+                <p class = "slider-service-detail">Quick and reliable repairs to get your car back on the road safely. Our experts ensure your vehicle stays in excellent condition.</p>
               </div>
               <img src="assets/images/vectors/slider_4.jpg">
             </div>
@@ -57,7 +49,7 @@
             <div class="main-slide">
               <div class="slide-copy">
                 <h2>Accurate Diagnostic Solutions</h2>
-                <p>Cutting-edge diagnostic tools and techniques for pinpointing issues. Let us identify and fix problems to keep your car running smoothly.</p>
+                <p class = "slider-service-detail">Cutting-edge diagnostic tools and techniques for pinpointing issues. Let us identify and fix problems to keep your car running smoothly.</p>
               </div>
               <img src="assets/images/vectors/slider_5.jpg">
             </div>
@@ -65,7 +57,7 @@
             <div class="main-slide">
               <div class="slide-copy">
                 <h2>Quality Parts and Accessories</h2>
-                <p>Genuine parts and premium accessories for your car's optimal performance. Enhance your driving experience with our high-quality products.</p>
+                <p class = "slider-service-detail">Genuine parts and premium accessories for your car's optimal performance. Enhance your driving experience with our high-quality products.</p>
               </div>
               <img src="assets/images/vectors/slider_2.jpg">
             </div>
@@ -118,19 +110,19 @@
           </div>
         </div>
         <div class="row" style="justify-content: space-between;text-align:center;align-items:center;margin-bottom:50px;">
-          <div class="col-md-2 p-2">
+          <div class="col-md-2 p-1">
             <img src="assets/images/partners/insurance.png" class="img-fluid" width="120px" height="90px" alt="Company 1">
           </div>
-          <div class="col-md-2 p-2">
+          <div class="col-md-2 p-1">
             <img src="assets/images/partners/farmers.png" class="img-fluid" width="120px" height="90px" alt="Company 2">
           </div>
-          <div class="col-md-2 p-2">
+          <div class="col-md-2 p-1">
             <img src="assets/images/partners/gecio.png" class="img-fluid" width="120px" height="90px" alt="Company 3">
           </div>
-          <div class="col-md-2 p-2">
+          <div class="col-md-2 p-1">
             <img src="assets/images/partners/statefarm.png" class="img-fluid" width="120px" height="90px" alt="Company 4">
           </div>
-          <div class="col-md-2 p-2">
+          <div class="col-md-2 p-1">
             <img src="assets/images/partners/travelers.png" class="img-fluid" width="120px" height="90px" alt="Company 4">
           </div>
         </div>
@@ -153,31 +145,31 @@
            </p>
         </div>
         <div class="col-md-6 p-5">
-          <img src="assets/images/vectors/maintaince.jpg" style="height: 400px;border-radius: 5%;" class="img-fluid" alt="Responsive Image">
+          <img src="assets/images/vectors/maintaince.jpg" id="services_first_section" class="img-fluid" alt="Responsive Image">
         </div>
       </div>
   </section>
 
   <section>
-    <div class="container-fluid p-5 setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
+    <div class="container-fluid p-5 setblackbackgroundcolor" id="repair_section">
       <div class="row">
         <div class="col-md-4">
           <img src="assets/images/vectors/testing.jpg" height="780" style="width: 100%;border-radius: 10px;" id="repairingimage"/>
         </div>
         <div class="col-md-3">
             <div class="row mb-3">
-                <img src="assets/images/vectors/maintaince.jpg" height="250" style="width: 100%;border-radius: 10px;"/>
+                <img src="assets/images/vectors/maintaince.jpg" id="desc_img_repair" height="250" style="width: 100%;border-radius: 10px;"/>
             </div>
             <div class="row  mb-3">
-              <img src="assets/images/vectors/wheel.jpg" height="250" style="width: 100%;border-radius: 10px;"/>
+              <img src="assets/images/vectors/wheel.jpg" id="desc_img_repair" height="250" style="width: 100%;border-radius: 10px;"/>
               </div>
             <div class="row">
-                <img src="assets/images/vectors/washing.jpg" height="250" style="width: 100%;border-radius: 10px;"/>
+                <img src="assets/images/vectors/washing.jpg" id="desc_img_repair" height="250" style="width: 100%;border-radius: 10px;"/>
             </div>
         </div>
         <div class="col-md-1">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 pt-5">
             <div class="row">
               <h1 class="text-white">REPAIR</h1>
             </div>
@@ -202,7 +194,7 @@
               <h1 class="text-white">TRANSFORM</h1>
             </div>
             <div class="row">
-              <p class="text-white">Prepare to embark on an extraordinary journey of transformation as our highly skilled specialists weave together performance upgrades, captivating aesthetics, and meticulous craftsmanship. Witness your vehicle evolve into a masterpiece that surpasses even your loftiest expectations.
+              <p class="text-white">Prepare to embark on an extraordinary journey of transformation as our highly skilled specialists weave together performance upgrades, captivating aesthetics, and meticulous craftsmanship.
               </p>
             </div>
             <div class="row">
@@ -333,7 +325,7 @@
                   <div class="col-sm-6">
                     <div class="testimonial-wrapper">
                       <div class="testimonial">I had an urgent tire replacement requirement, and National Tires and Repairs came to my rescue. Despite their packed schedule, they managed to squeeze me in and had my new tires installed within the blink of an eye. I'm grateful to National Tires
-& Auto Repairs for his attentive service and ensuring a smooth and hassle-free experience.</div>
+                & Auto Repairs for his attentive service and ensuring a smooth and hassle-free experience.</div>
                       <div class="media">
                         <img src="assets/images/people/5.jpeg" class="mr-3" alt="">
                         <div class="media-body">
@@ -398,19 +390,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -418,19 +410,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -462,7 +454,7 @@
             </div>
             <div class="faq">
               <div class="faq-question">Q: How often should I replace my Tires?<span class="plus-icon">&#43;</span></div>
-              <div class="faq-answer">A: yre replacement intervals depend on various factors such as tyre type, driving conditions, and tread wear. As a general guideline, it is recommended to replace Tires when the tread depth reaches 3mm or lower.</div>
+              <div class="faq-answer">A: Yes, replacement intervals depend on various factors such as tyre type, driving conditions, and tread wear. As a general guideline, it is recommended to replace Tires when the tread depth reaches 3mm or lower.</div>
             </div>
             <div class="faq">
               <div class="faq-question">Q: Do you offer any promotions or discounts on tyre purchases or services?<span class="plus-icon">&#43;</span></div>

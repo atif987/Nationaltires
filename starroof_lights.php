@@ -32,31 +32,31 @@
           </span>
         </div>
         <div class="col-md-6 p-5">
-          <img src="./assets/images/vectors/star_roof_lights.png" style="height: 400px;border-radius: 5%;" class="img-fluid" alt="Responsive Image">
+          <img src="./assets/images/vectors/star_roof_lights.png" id="services_first_section" class="img-fluid" alt="Responsive Image">
         </div>
       </div>
   </section>
 
   <section>
-    <div class="container-fluid p-5 setblackbackgroundcolor" style="margin-top:100px;border-radius : 5px;">
+    <div class="container-fluid p-5 setblackbackgroundcolor" id="repair_section">
       <div class="row">
         <div class="col-md-4">
-          <img src="assets/images/vectors/testing.jpg" height="780" style="width: 100%;border-radius: 10px;"/>
+          <img src="assets/images/vectors/testing.jpg" height="780" style="width: 100%;border-radius: 10px;" id="repairingimage"/>
         </div>
         <div class="col-md-3">
             <div class="row mb-3">
-                <img src="assets/images/vectors/maintaince.jpg" height="250" style="width: 100%;border-radius: 10px;"/>
+                <img src="assets/images/vectors/maintaince.jpg" id="desc_img_repair" height="250" style="width: 100%;border-radius: 10px;"/>
             </div>
             <div class="row  mb-3">
-              <img src="assets/images/vectors/wheel.jpg" height="250" style="width: 100%;border-radius: 10px;"/>
+              <img src="assets/images/vectors/wheel.jpg" id="desc_img_repair" height="250" style="width: 100%;border-radius: 10px;"/>
               </div>
             <div class="row">
-                <img src="assets/images/vectors/washing.jpg" height="250" style="width: 100%;border-radius: 10px;"/>
+                <img src="assets/images/vectors/washing.jpg" id="desc_img_repair" height="250" style="width: 100%;border-radius: 10px;"/>
             </div>
         </div>
         <div class="col-md-1">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 pt-5">
             <div class="row">
               <h1 class="text-white">REPAIR</h1>
             </div>
@@ -81,7 +81,7 @@
               <h1 class="text-white">TRANSFORM</h1>
             </div>
             <div class="row">
-              <p class="text-white">Prepare to embark on an extraordinary journey of transformation as our highly skilled specialists weave together performance upgrades, captivating aesthetics, and meticulous craftsmanship. Witness your vehicle evolve into a masterpiece that surpasses even your loftiest expectations.
+              <p class="text-white">Prepare to embark on an extraordinary journey of transformation as our highly skilled specialists weave together performance upgrades, captivating aesthetics, and meticulous craftsmanship.
               </p>
             </div>
             <div class="row">
@@ -106,13 +106,12 @@
   </section>
 
   <section>
-    <div class="container mb-5 setblackbackgroundcolor" style="border-radius:10px;margin-top:5%;">
+    <div class="container setblackbackgroundcolor" style="border-radius:10px;margin-top:5%;">
       <div class="row">
         <h1 class="neon" data-text="U"> <span class="flicker-slow">SET</span><span class="flicker-slow"> DIFFE</span>RE<span class="flicker-fast">NCE</span></h1>
       </div>
       <div class="row text-center text-white p-4">
-      Unparalleled Expertise and Quality: Trust your vehicle's needs to the industry leaders in National Tires & Auto Repairs. Our team of highly skilled technicians brings years of experience,
-      ensuring top-notch service and unrivaled attention to detail.
+          Efficiency Meets Affordability: Experience the perfect balance of cost-effective solutions and swift turnaround times with National Tires & Auto Repairs. We pride ourselves on delivering efficient services without compromising on quality, helping you get back on the road in no time .
       </div>
       <div class="row mt-4">
         <div class="col text-center mb-4">
@@ -134,19 +133,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -154,19 +153,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>

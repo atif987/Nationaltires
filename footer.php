@@ -4,7 +4,7 @@
     <!-- newsletter -->
     <div class="n-l">
       <div class="container text-center">
-        <h2 class="mb-4">Subscribe To Our Newsletter</h2>
+        <h2 class="mb-2">Subscribe To Our Newsletter</h2>
         <form method="POST" class="mx-auto text-center" id="subscribersform">
           <div class="d-sm-flex align-items-center justify-content-start">
             <input type="email" name="email" id="emailaddress" class="w-100 mb-sm-0 mb-3" placeholder="Email Address" autocomplete="off" required>
@@ -21,7 +21,7 @@
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">COMPANY</li>
+              <li class="title text-uppercase mb-3 mt-3">COMPANY</li>
               <li><a href="index.php" class="text-capitalize text-white">Home</a></li>
               <li><a href="services.php" class="text-capitalize text-white">Services</a></li>
               <li><a href="meet_the_mechanic.php" class="text-capitalize text-white">Meet The Mechanics</a></li>
@@ -35,15 +35,15 @@
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">POLICIES</li>
-              <li><a href="#" class="text-capitalize text-white">Privacy Policy</a></li>
-              <li><a href="terms&conditions.php" class="text-capitalize text-white">Terms of Service</a></li>
+              <li class="title text-uppercase mb-3 mt-3" id="policies-location">POLICIES</li>
+              <li><a href="faq.php" class="text-capitalize text-white">Faq</a></li>
+              <li><a href="terms&service.php" class="text-capitalize text-white">Terms of Service</a></li>
             </ul>
           </div>
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">SUPPORT</li>
+              <li class="title text-uppercase mb-3 mt-3" id="support-location">SUPPORT</li>
               <li><a href="schedule-service.php" class="text-capitalize text-white">Schedule Service</a></li>
               <li>
                 <a href="https://www.facebook.com/profile.php?id=100067901697288&mibextid=LQQJ4d"><i class="fa-brands fa-facebook fa-bounce fa-2xl"></i></a>
@@ -54,7 +54,7 @@
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">LOCATION</li>
+              <li class="title text-uppercase mb-3 mt-3" id="footer-location">LOCATION</li>
               <li><span class="text-capitalize text-white">Address : 1050 n state road 7 Hollywood Florida 33021 </span><br><br>
                   <span class="text-capitalize text-white">Phone number : 954-987-2390</span><br><br>
                   <span class="text-capitalize text-white">Store hours are 8am-7:30pm</span><br>
@@ -68,9 +68,9 @@
     </div>
     <!-- copyrights -->
     <div class="c-r text-left">
-      <div class="container">
-        <p class="mb-0 text-white">&copy; 2023 National tires & Auto repairs Ltd. Trademarks and brands are the property of their respective owners.</p>
-        <p class="comment mb-0 text-white">Developed By
+      <div class="container mt-4">
+        <p class="mb-0 text-white text-center">&copy; 2023 National tires & Auto repairs Ltd. Trademarks & brands are the property of their respective owners.</p>
+        <p class="comment mb-0 text-white text-center">Developed By
           <a href="index.php" target="_blank">National tires & Auto repairs</a>
         </p>
       </div>

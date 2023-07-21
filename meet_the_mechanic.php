@@ -97,45 +97,43 @@
         </div>
       </div>
 
-      <div class="row pt-1 pb-5 justify-content-between align-items-center" style="background-color: black;border-radius:5px;color:white;">
+      <div class="row pt-1 pb-5 pt-3 justify-content-between align-items-center" style="background-color: black;border-radius:5px;color:white;">
             <div class="col-sm-12 text-center pb-2">
                 <h2>Why Choose Us</h2>
             </div>
-            <div class="col-sm-8 offset-sm-2 text-center">
-                <p style="text-indent:2cm;">National Tires & Auto Repairs is backed by a team of skilled technicians and mechanics with years of 
+            <div class="col-sm-8 p-2 offset-sm-2 text-center">
+                <p>National Tires & Auto Repairs is backed by a team of skilled technicians and mechanics with years of 
                   experience in the automotive industry. Our extensive knowledge and expertise 
                   enable us to handle a wide range of vehicle repairs and maintenance with precision and professionalism.
                   We understand the value of your time and the importance of a reliable transportation solution. That's why we offer efficient scheduling options and 
                   strive to complete repairs in a timely manner without compromising on quality. 
-                  Count on us to get you back on the road safely and swiftly. Our commitment to customer satisfaction is
-                  unwavering. We prioritize open communication, transparency, and personalized attention to ensure your specific needs are met. 
-                  We listen to your concerns, provide honest advice, and deliver exceptional service that exceeds your expectations.
+                  Count on us to get you back on the road safely and swiftly.
                 </p>
             </div>
       </div>
 
       <div class="row pt-1 pb-5 justify-content-center align-items-center" style="background-color: black;border-radius:5px;color:white;">
-          <div class="col-md-2 text-center p-3" style="border:2px solid white;border-radius:5px">
+          <div class="col-md-2 text-center p-3" style="border:2px solid white;border-radius:5px;width:70%;">
               <h3>Happy Customers</h3>
               <h4><span class="counter">1000</span>+</h4>
           </div>
-          <div class="col-md-2 text-center p-3"  style="border:2px solid white;border-radius:5px">
-              <h3>Maintaince Satisfaction</h3>
+          <div class="col-md-2 text-center p-3"  style="border:2px solid white;border-radius:5px;width:70%;">
+              <h3>Maintenance Satisfaction</h3>
               <h4><span class="counter">95</span>%</h4>
           </div>
-          <div class="col-md-2 text-center p-3"  style="border:2px solid white;border-radius:5px">
-              <h3>Team Members</h3>
+          <div class="col-md-2 text-center p-3"  style="border:2px solid white;border-radius:5px;width:70%;">
+              <h3>Team<br> Members</h3>
               <h4><span class="counter">20</span>+</h4>
           </div>
-          <div class="col-md-2 text-center p-3"  style="border:2px solid white;border-radius:5px">
-              <h3>Awards Received</h3>
+          <div class="col-md-2 text-center p-3"  style="border:2px solid white;border-radius:5px;width:70%;">
+              <h3>Awards<br> Received</h3>
               <h4><span class="counter">4</span></h4>
           </div>
       </div>
 
     </section>
     
-  <section class="setblackbackgroundcolor">
+    <section class="setblackbackgroundcolor">
     <div class="container p-5">
       <div class="row">
         <div class="col-md-12 text-center text-white">
@@ -147,19 +145,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
@@ -167,19 +165,19 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="insta-box">
-                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" alt="Instagram Link" style="width: 600px;height:350px;">
+                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
                 <span class="insta-play">&#9658;</span>
               </div>
             </div>

@@ -92,7 +92,7 @@
         <div class="nav-content d-flex align-items-center justify-content-between">
           <!-- brand -->
           <a href="#" class="brand">
-            <img src="./assets/images/logos/logo.png" style="height: 80px;width: 150px;" class="img-fluid" alt="">
+            <img src="./assets/images/logos/logo.png" id="main-site-logo" class="img-fluid" alt="">
           </a>
           <!-- links -->
           <ul class="nav-links list-unstyled d-lg-flex align-items-center justify-content-end mb-0">
@@ -113,9 +113,9 @@
             </li>
 
             <!-- nav item -->
-            <li class="th-nav-item position-relative">
+            <!-- <li class="th-nav-item position-relative">
               <a href="rims.php" class="position-relative d-flex align-items-center justify-content-lg-center justify-content-between text-capitalize">rims</a>
-            </li>
+            </li> -->
 
             <!-- nav item -->
             <li class="th-nav-item position-relative">
@@ -163,7 +163,7 @@
       </div>
     </nav>
 
-    <div class="container text-center" style="margin-top:15%;color:white;">
+    <div class="container text-center" style="padding-top:130px;color:white;">
           <h1>SCHEDULE SERVICE</h1>
     </div>
 
@@ -224,8 +224,8 @@
                             </div>
                             <div class="row" style="text-align: center;">
                                 <div class="col">
-                                    <button id="previous-month" class="btn btn-warning" style="cursor:pointer;">Previous Month</button>
-                                    <button id="next-month" class="btn btn-warning"  style="cursor:pointer;">Next Month</button>
+                                    <button id="previous-month" class="btn btn-warning m-1" style="cursor:pointer;">Previous Month</button>
+                                    <button id="next-month" class="btn btn-warning m-1"  style="cursor:pointer;">Next Month</button>
                                 </div>
                             </div>
                             <div class="row">
@@ -470,7 +470,7 @@
                                   <div class="col-sm-12 mb-3">
                                       <h4 class="mt-4">Select Services</h4>
                                   </div>
-                                  <div class="col-sm-12 col-md-6">
+                                  <div class="col-sm-12 col-md-6 mt-2">
                                   <label for="services">Select Service:</label><br>
                                   <select name="services" style="padding: 10px;width: 70%;border-radius: 5px;" id="selectedService" required>
                                     <option value=""></option>
@@ -560,7 +560,7 @@
                                   </select>
 
                                   </div>
-                                  <div class="col-sm-12 col-md-6">
+                                  <div class="col-sm-12 col-md-6 mt-2">
                                       <div class="form-group">
                                           <label for="comments">Further Details <small class="furtherDetails">( Optional )</small></label>
                                           <textarea class="form-control" rows="3" placeholder="Enter any Further Details" id="selectedFurtherDetails"></textarea>
@@ -700,12 +700,66 @@
     </div>
   </div>
 
-     <!-- :: Footer -->
- <footer class="setblackbackgroundcolor">
+  <section class="setblackbackgroundcolor">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-md-12 text-center text-white">
+          <h1>FOLLOW US ON INSTAGRAM</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="insta-box">
+                <img src="assets/images/vectors/post1.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
+                <span class="insta-play">&#9658;</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="insta-box">
+                <img src="assets/images/vectors/post2.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
+                <span class="insta-play">&#9658;</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="insta-box">
+                <img src="assets/images/vectors/post3.png" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
+                <span class="insta-play">&#9658;</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="insta-box">
+                <img src="assets/images/vectors/post4.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
+                <span class="insta-play">&#9658;</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="insta-box">
+                <img src="assets/images/vectors/post5.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
+                <span class="insta-play">&#9658;</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="insta-box">
+                <img src="assets/images/vectors/post6.jpg" class="img-fluid border-radius-image" id="instagram_vedios_section" alt="Instagram Link">
+                <span class="insta-play">&#9658;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- :: Footer -->
+  <footer class="setblackbackgroundcolor">
     <!-- newsletter -->
-    <div class="n-l">
+    <!-- <div class="n-l">
       <div class="container text-center">
-        <h2 class="mb-4">Subscribe To Our Newsletter</h2>
+        <h2 class="mb-2">Subscribe To Our Newsletter</h2>
         <form method="POST" class="mx-auto text-center" id="subscribersform">
           <div class="d-sm-flex align-items-center justify-content-start">
             <input type="email" name="email" id="emailaddress" class="w-100 mb-sm-0 mb-3" placeholder="Email Address" autocomplete="off" required>
@@ -713,7 +767,7 @@
           </div>
         </form>
       </div>
-    </div>
+    </div> -->
     <!-- links -->
     <div class="links">
       <div class="container">
@@ -722,7 +776,7 @@
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">COMPANY</li>
+              <li class="title text-uppercase mb-3 mt-3">COMPANY</li>
               <li><a href="index.php" class="text-capitalize text-white">Home</a></li>
               <li><a href="services.php" class="text-capitalize text-white">Services</a></li>
               <li><a href="meet_the_mechanic.php" class="text-capitalize text-white">Meet The Mechanics</a></li>
@@ -736,15 +790,15 @@
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">POLICIES</li>
-              <li><a href="#" class="text-capitalize text-white">Privacy Policy</a></li>
-              <li><a href="terms&conditions.php" class="text-capitalize text-white">Terms of Service</a></li>
+              <li class="title text-uppercase mb-3 mt-3" id="policies-location">POLICIES</li>
+              <li><a href="faq.php" class="text-capitalize text-white">Faq</a></li>
+              <li><a href="terms&service.php" class="text-capitalize text-white">Terms of Service</a></li>
             </ul>
           </div>
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">SUPPORT</li>
+              <li class="title text-uppercase mb-3 mt-3" id="support-location">SUPPORT</li>
               <li><a href="schedule-service.php" class="text-capitalize text-white">Schedule Service</a></li>
               <li>
                 <a href="https://www.facebook.com/profile.php?id=100067901697288&mibextid=LQQJ4d"><i class="fa-brands fa-facebook fa-bounce fa-2xl"></i></a>
@@ -755,7 +809,7 @@
           <!-- col -->
           <div class="col-lg-3 col-md-4 col-sm-6 mb-lg-0 mb-0">
             <ul class="list-unstyled mb-0">
-              <li class="title text-uppercase mb-3">LOCATION</li>
+              <li class="title text-uppercase mb-3 mt-3" id="footer-location">LOCATION</li>
               <li><span class="text-capitalize text-white">Address : 1050 n state road 7 Hollywood Florida 33021 </span><br><br>
                   <span class="text-capitalize text-white">Phone number : 954-987-2390</span><br><br>
                   <span class="text-capitalize text-white">Store hours are 8am-7:30pm</span><br>
@@ -769,9 +823,9 @@
     </div>
     <!-- copyrights -->
     <div class="c-r text-left">
-      <div class="container">
-        <p class="mb-0 text-white">&copy; 2023 National tires & Auto repairs Ltd. Trademarks and brands are the property of their respective owners.</p>
-        <p class="comment mb-0 text-white">Developed By
+      <div class="container mt-4">
+        <p class="mb-0 text-white text-center">&copy; 2023 National tires & Auto repairs Ltd. Trademarks & brands are the property of their respective owners.</p>
+        <p class="comment mb-0 text-white text-center">Developed By
           <a href="index.php" target="_blank">National tires & Auto repairs</a>
         </p>
       </div>

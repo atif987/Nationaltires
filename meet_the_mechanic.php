@@ -12,7 +12,7 @@
         <h1 class="text-yellow">National Tires <br>& Auto Repairs</h1>
         <p  class="text-yellow">REVIVE YOUR RIDE WITH PRECISION AND PRIDE , WE'RE YOUR PIT STOP FOR AUTOMATIVE REPAIRS</p>
         <div class="content-button">
-          <button type="button" class="btn text-yellow" style="font-weight: 600;" >Book Appointment</button>
+          <button type="button" class="btn text-yellow" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';" >Book Appointment</button>
         </div>
       </div>
     </div>

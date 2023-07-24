@@ -13,7 +13,7 @@
       <h1 class="text-yellow">National Tires <br>& Auto Repairs</h1>
       <p  class="text-yellow">REVIVE YOUR RIDE WITH PRECISION AND PRIDE , WE'RE YOUR PIT STOP FOR AUTOMATIVE REPAIRS</p>
         <div class="content-button">
-          <button type="button" class="btn text-yellow" style="font-weight: 600;" >Book Appointment</button>
+          <button type="button" class="btn text-yellow" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';" >Book Appointment</button>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
           <h2 class="text-white p-5">Elevate Your Ride to New Heights with our Premium Lift Kits</h2>
           <p class="text-white px-5 py-2">Unleash the true off-road beast within your vehicle with our top-of-the-line lift kits. Whether you crave superior ground clearance or want to conquer rugged terrains with ease, our lift kits are designed to take your ride to new heights. Our team of experts will install the perfect lift kit that not only enhances the aesthetics of your vehicle .</p>
           <span class="px-5">
-            <button type="button" class="btn mb-5" style="font-weight: 600;">
+            <button type="button" class="btn mb-5" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';">
               SCHEDULE A CONSULTATION
             </button>
           </span>
@@ -66,7 +66,7 @@
               </p>
             </div>
             <div class="row mb-5">
-              <button type="button" class="btn" style="font-weight: 600;" >SCHEDULE NOW</button>
+              <button type="button" class="btn" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';" >SCHEDULE NOW</button>
             </div>
             <div class="row">
               <h1 class="text-white">MODIFY</h1>
@@ -76,7 +76,7 @@
               </p>
             </div>
             <div class="row mb-5">
-              <button type="button" class="btn" style="font-weight: 600;" >SCHEDULE NOW</button>
+              <button type="button" class="btn" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';" >SCHEDULE NOW</button>
             </div>
             <div class="row">
               <h1 class="text-white">TRANSFORM</h1>
@@ -86,7 +86,7 @@
               </p>
             </div>
             <div class="row">
-              <button type="button" class="btn" style="font-weight: 600;" >SCHEDULE NOW</button>
+              <button type="button" class="btn" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';" >SCHEDULE NOW</button>
             </div>
         </div>
       </div>
@@ -103,7 +103,7 @@
       </div>
       <div class="row mt-4">
         <div class="col text-center mb-4">
-          <button type="button" class="btn" style="font-weight: 600;" >SCHEDULE NOW</button>
+          <button type="button" class="btn" style="font-weight: 600;" onclick="window.location.href = 'schedule-service.php';" >SCHEDULE NOW</button>
         </div>
       </div>
     </div>
